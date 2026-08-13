@@ -1,0 +1,23 @@
+{
+  "name": "NorthPole Dark",
+  "dataColors": ["#3B82F6", "#06B6D4", "#8B5CF6", "#22C55E", "#F59E0B", "#EF4444", "#64748B"],
+  "background": "#0B1220",
+  "foreground": "#F8FAFC",
+  "tableAccent": "#3B82F6",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [{"show": true, "fontFamily": "Segoe UI", "fontSize": 12, "color": {"solid": {"color": "#F8FAFC"}}}],
+        "background": [{"show": true, "color": {"solid": {"color": "#111827"}}, "transparency": 0}],
+        "border": [{"show": false}],
+        "visualHeader": [{"show": false}]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [{"fontFamily": "Segoe UI Semibold", "fontSize": 24, "color": {"solid": {"color": "#F8FAFC"}}}],
+        "categoryLabels": [{"fontFamily": "Segoe UI", "fontSize": 10, "color": {"solid": {"color": "#94A3B8"}}}]
+      }
+    }
+  }
+}
