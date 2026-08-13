@@ -7,9 +7,9 @@ individual lending decisions.
 
 from __future__ import annotations
 
+import random
 from dataclasses import asdict, dataclass
 from datetime import UTC, datetime
-import random
 
 
 @dataclass(frozen=True)
