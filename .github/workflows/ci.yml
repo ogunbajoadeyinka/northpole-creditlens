@@ -4,7 +4,7 @@ on:
   push:
     branches: [main, develop]
   pull_request:
-    branches: [main]
+    branches: [main, develop]
 
 jobs:
   test:
@@ -16,7 +16,7 @@ jobs:
           python-version: "3.11"
           cache: pip
       - name: Install project
-        run: pip install -e ".[dev]"
+        run: pip install -e ".[data,dev]"
       - name: Lint
         run: ruff check .
       - name: Test
